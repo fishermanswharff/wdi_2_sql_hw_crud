@@ -50,7 +50,7 @@ INSERT INTO payments
 INSERT INTO payments 
   (created_at, amount, payer_name, recipient_name, description, zipcode)
   VALUES
-  ('2014-08-25',1419.18,'C4','Mr. Wharff','Direct Deposit',02494);
+  ('2014-08-25',1419.18,'C4','Mr. Wharff','',02494);
 
 \echo 'Payment 5'
 INSERT INTO payments 
